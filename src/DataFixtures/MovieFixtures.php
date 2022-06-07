@@ -14,7 +14,7 @@ class MovieFixtures extends Fixture
     $movie->setTitle('The Dark Knight');
     $movie->setReleaseYear(2008);
     $movie->setDescription('This is the desc of Dark Knight');
-    $movie->setImagePath('https://pixabay.com/photos/batman-superhero-armor-comics-2713459/');
+    $movie->setImagePath('https://cdn.pixabay.com/photo/2019/11/15/21/25/tank-4629329_960_720.jpg');
 
     //Add Data to Pivot Table
     $movie->addActor($this->getReference('actor_1'));
